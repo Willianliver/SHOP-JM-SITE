@@ -1,0 +1,28 @@
+.vtex-flex-layout-0-x-flexRowContent--description {
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+
+.vtex-flex-layout-0-x-flexRowContent--productSpecificationGroupDefault {
+    padding: 0 1rem;
+}
+
+.vtex-product-specifications-1-x-groupName {
+    margin-top: 0;
+    text-transform: none;
+    text-align: left;
+    font: normal normal 900 32px/14px Lato;
+    letter-spacing: 0px;
+    color: #170D65;
+    opacity: 1;
+    margin-bottom: 1.5rem;
+}
+
+.vtex-flex-layout-0-x-flexColChild--productSpecificationName,
+.vtex-store-components-3-x-productDescriptionText {
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-16)/var(--unnamed-line-spacing-24) var(--unnamed-font-family-lato);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--preto);
+    text-align: left;
+}
+

@@ -1,0 +1,131 @@
+.contact_form {
+    margin-top: 35px;
+}
+
+.contact_header {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact_title {
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0px;
+    color: #000000;
+    text-transform: uppercase;
+    margin-bottom: 18px;
+}
+
+.contact_sub_title {
+    max-width: 490px;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.7px;
+    color: #000000;
+}
+
+.contact_container {
+    min-width: 690px;
+    margin: auto;
+}
+
+.contact_label {
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0px;
+    color: #4E4E4E;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin-bottom: 25px;
+}
+
+.contact_field {
+    max-width: 465px;
+    width: 100%;
+    height: 38px;
+    border: 0;
+    border-bottom: 1px solid #000;
+    border-radius: 0;
+    margin-top: 3px;
+    margin-left: -5px;
+    padding-left: 6px;
+}
+
+.contact_area {
+    min-height: 150px;
+    padding-top: 10px;
+}
+
+.contact_btn_rigth {
+    padding: 0 15px;
+    justify-content: flex-end;
+}
+
+.contact_btn {
+    width: 138px;
+    height: 48px;
+    background-color: #170D65;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.84px;
+    color: #ffffff;
+    text-transform: uppercase;
+    transition: .3s;
+    border: none;
+}
+
+.contact_btn:hover {
+    cursor: pointer;
+    background-color: #4B3493;
+    transition: .3s
+}
+
+.contact_form__controls {
+    width: 475px;
+    padding: 0;
+    margin-bottom: 25px;
+}
+
+.statusForm {
+    max-width: 465px;
+    display: flex;
+    justify-content: center;
+    color: var(--green-dark);
+}
+
+.statusFormError {
+    max-width: 465px;
+    display: flex;
+    justify-content: center;
+    color: rgb(202, 18, 18);
+}
+
+@media (max-width: 768px) {
+    .contact_container {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .contact_label {
+        min-width: 100%;
+    }
+
+    .contact_form__controls {
+        max-width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .contact_label_mobile {
+        margin-bottom: 25px;
+    }
+
+    .contact_btn_rigth {
+        justify-content: center;
+    }
+}
+
+.alert{
+    margin-bottom: 1rem;
+}

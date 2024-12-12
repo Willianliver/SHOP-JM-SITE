@@ -1,0 +1,276 @@
+{
+  "footer": {
+    "blocks": [
+      "footer-layout.desktop",
+      "footer-layout.mobile"
+    ]
+  },
+  "footer-layout.desktop": {
+    "children": [
+      "newsletter-form",
+      "flex-layout.row#main-footer-desktop",
+      "flex-layout.row#institucional-desktop"
+    ]
+  },
+  "flex-layout.row#main-footer-desktop": {
+    "props": {
+      "blockClass": "footer-main-row",
+      "horizontalAlign": "center",
+      "fullWidth": false
+    },
+    "children": [
+      "flex-layout.col#categorias",
+      "flex-layout.col#logo-contatos"
+      // "flex-layout.col#siga-a-korin"
+      // "flex-layout.col#rightcol"
+    ]
+  },
+  "flex-layout.col#categorias": {
+    "children": [
+      "CustomFooter"
+    ]
+  },
+  "flex-layout.col#logo-contatos": {
+    "props": {
+      "blockClass": "logo-contatos",
+      "preventVerticalStretch": true,
+      "marginTop": 6,
+      "horizontalAlign": "center"
+    },
+    "children": [
+      "rich-text#contato1",
+      "rich-text#contato2",
+      "rich-text#contato3"
+    ]
+  },
+  "rich-text#contato1": {
+    "props": {
+      "blockClass": "contato",
+      "text": "**Atendimento ao consumidor**"
+    }
+  },
+  "rich-text#contato2": {
+    "props": {
+      "blockClass": "contato",
+      "text": "(16) 99169-3882"
+    }
+  },
+  "rich-text#contato3": {
+    "props": {
+      "blockClass": "contato",
+      "text": "sac@shopjm.com.br"
+    }
+  },
+  "flex-layout.col#siga-a-korin": {
+    "props": {
+      "blockClass": "siga-a-korin",
+      "horizontalAlign": "right"
+    },
+    "children": [
+      "rich-text#siga-a-korin",
+      "flex-layout.row#redes-sociais"
+    ]
+  },
+  "rich-text#siga-a-korin": {
+    "props": {
+      "text": "**Siga a JM nas Redes**"
+    }
+  },
+  "flex-layout.row#redes-sociais" :{
+    "props": {
+      "blockClass": "redes-sociais",
+      "horizontalAlign": "right"
+    },
+    "children": [
+      "image#instagram",
+      "image#facebook",
+      "image#twitter",
+      "image#tiktok",
+      "image#youtube"
+      // "image#linkedin"
+    ]
+  },
+  "image#instagram": {
+    "props": {
+      "src": "assets/iconinstagram.svg",
+      "link" : {
+        "url": "https://www.instagram.com//",
+        "openNewTab": true
+      },
+      "height": 24
+    }
+  },
+  "image#facebook": {
+    "props": {
+      "src": "assets/iconfacebook.svg",
+      "link" : {
+        "url": "https://www.facebook.com/",
+        "openNewTab": true
+      },
+      "height": 24
+    }
+  },
+  "image#twitter": {
+    "props": {
+      "src": "assets/icontwitter.svg",
+      "link" : {
+        "url": "https://twitter.com/",
+        "openNewTab": true
+      },
+      "height": 24
+    }
+  },
+  "image#tiktok": {
+    "props": {
+      "src": "assets/icontiktok.svg",
+      "link" : {
+        "url": "https://www.tiktok.com/",
+        "openNewTab": true
+      },
+      "height": 24
+    }
+  },
+  "image#youtube": {
+    "props": {
+      "src": "assets/iconyoutube.svg",
+      "link" : {
+        "url": "https://www.youtube.com/",
+        "openNewTab": true
+      },
+      "height": 24
+    }
+  },
+  "flex-layout.row#institucional-desktop": {
+    "props": {
+      "blockClass": "footer-institucional",
+      "fullWidth": false
+    },
+    "children": [
+      "flex-layout.col#endereco",
+      "flex-layout.col#bandeiras-cartoes",
+      "flex-layout.col#institucional-powered-by-desktop"
+    ]
+  },
+  "flex-layout.row#institucional-mobile": {
+    "props": {
+      "blockClass": "footer-institucional",
+      "marginBottom": 0,
+      "fullWidth": false
+    },
+    "children": [
+      "flex-layout.col#endereco",
+      "flex-layout.col#institucional-powered-by-mobile"
+    ]
+  },
+  "flex-layout.col#endereco": {
+    "props": {
+      "blockClass": "endereco",
+      "horizontalAlign": "left"
+    },
+    "children": [
+      "rich-text#endereco"
+    ]
+  },
+  "rich-text#endereco": {
+    "props": {
+      "blockClass": "endereco-text",
+      "text": "Copyright © 2023 M B COMERCIO MOVELEIRO E ELETRODOMESTICOS LTDA. <br/> Todos os direitos são reservados. CNPJ: 02.513.287/0001-89"
+    }
+  },
+  "flex-layout.col#institucional-powered-by-desktop": {
+    "props": {
+      "horizontalAlign": "right",
+      "blockClass": "institucional-powered-by"
+    },
+    "children": [
+      "rich-text#poweredByVtex",
+      "rich-text#poweredByVinci"
+    ]
+  },
+  "flex-layout.col#institucional-powered-by-mobile": {
+    "props": {
+      "horizontalAlign": "right",
+      "blockClass": "institucional-powered-by"
+    },
+    "children": [
+      "rich-text#poweredByVinci",
+      "rich-text#poweredByVtex"
+    ]
+  },
+  "rich-text#poweredByVinci": {
+    "props": {
+      "blockClass": "poweredby",
+      "text": "Desenvolvido por: <a href='https://www.agenciavinci.com.br/' target='_blank'>![alt text](assets/vinci-logo-white.png)</a>"
+    }
+  },
+  "rich-text#poweredByVtex": {
+    "props": {
+      "blockClass": "poweredby",
+      "text": "Powered by: <a href='https://vtex.com/' target='_blank'>![alt text](assets/vtex-logo-white.png)</a>"
+    }
+  },
+  "footer-layout.mobile": {
+    "children": [
+      "newsletter-form",
+      "flex-layout.row#main-footer-desktop",
+      "flex-layout.row#institucional-mobile"
+    ]
+  },
+  "flex-layout.col#bandeiras-cartoes": {
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass" : "bandeiras-cartoes"
+    },
+    "children": [
+      "image#bandeiras-cartoes"
+    ]
+  },
+  "image#bandeiras-cartoes": {
+    "props": {
+      "src": "assets/bandeiras-cartoes.png",
+      "maxHeight": 24
+    }
+  },
+  // INSTITUCIONAL
+  "flex-layout.col#rightcol": {
+    "props": {
+      "fullWidth": true
+    },
+    "children": [
+      "flex-layout.row#rightcol"
+    ]
+  },
+  "flex-layout.row#rightcol":{
+    "props": {
+      "fullWidth": true
+    },
+    "children": [
+      "flex-layout.col#disclaimers",
+      "flex-layout.col#siga-a-korin"
+    ]
+  },
+  "flex-layout.col#disclaimers": {
+    "props": {
+      "blockClass": "disclaimers",
+      "horizontalAlign": "left"
+    },
+    "children": [
+      "link#politica-de-privacidade",
+      "link#politica-de-termos"
+    ]
+  },
+  "link#politica-de-privacidade": {
+    "props": {
+      "blockClass": "politica-link",
+      "href": "/politica-de-privacidade",
+      "label": "Política de Privacidade"
+    }
+  },
+  "link#politica-de-termos": {
+    "props": {
+      "blockClass": "politica-link",
+      "href": "/termos-de-uso",
+      "label": "Termos de Uso"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "store.custom#trocas-e-devolucoes": {
+    "blocks": [
+      "flex-layout.row#trocas-e-devolucoes"
+    ]
+  },
+  "flex-layout.row#trocas-e-devolucoes": {
+    "props": {
+      "blockClass": "institucional"
+    },
+    "children": [
+      "flex-layout.col#text-trocas-e-devolucoes"
+    ]
+  },
+
+  "flex-layout.col#text-trocas-e-devolucoes": {
+    "children": [
+      "rich-text#title-trocas-e-devolucoes",
+      "rich-text#trocas-e-devolucoes"
+    ],
+    "props": {
+      "blockclass": "textColumn",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "rich-text#title-trocas-e-devolucoes": {
+    "props": {
+      "text":
+      "# TERMOS E CONDIÇÕES",
+      "blockClass": "title"
+    }
+  },
+  "rich-text#trocas-e-devolucoes": {
+    "props": {
+      "text": "## Informações gerais\nNosso compromisso é sua total satisfação nas compras realizadas em nosso site. Visando a uma parceria de respeito e confiança, criamos a Política de Troca e Devolução, com base no Código de Defesa do Consumidor.\nPara evitar qualquer problema com a sua compra, ao realizar o pedido, fique atento:\nà descrição e ficha técnica do produto;\nà cor do produto (alguns produtos possuem cores sortidas e a foto no site é meramente ilustrativa);\nàs dimensões do produto (verifique se há espaço para a montagem do produto onde será instalado).\n## Prazo para solicitar a troca ou devolução (Arrependimento)\nO prazo para solicitar a troca ou devolução de seu pedido é de até 7 (sete) dias corridos, contados a partir do dia seguinte que seu pedido chegou (finais de semana e feriados também valem!). Esse é um direito que está no artigo 49 do Código de Defesa do Consumidor.\nMas fique atento! A troca ou devolução do seu produto só será realizada se estiver tudo OK com o mesmo! Onde o produto deve estar em sua embalagem original, contendo o manual de montagem e todos os acessórios inclusos, sem sinais de mau uso, como riscos e marcas de quedas. Se você não possuir mais a embalagem original poderá usar outra de sua preferência, desde que seja devidamente lacrada para que não ocorram avarias no produto (indicamos o uso de plástico bolha, lacrado com fita adesiva).\n## Avaria\nCaso o produto seja avariado durante o transporte, recuse o recebimento e entre em contato com o Serviço de Atendimento ao Cliente em até 72 horas.\n## Restituição e Estorno\nSe você decidir cancelar sua compra, a devolução do valor ocorrerá na mesma forma de pagamento escolhida no momento da compra:\na) Cartão de crédito: Assim que o cancelamento for finalizado vamos comunicar a administradora do cartão e o estorno ocorrerá na fatura seguinte ou na posterior, de uma só vez, independente do número de parcelas escolhido na compra. Importante: O prazo de ressarcimento depende da data de fechamento da sua fatura e a responsabilidade é da administradora do cartão.\nb) Boleto bancário: Após a finalização, a restituição ocorrerá dentro de 2 (dois) dias úteis na sua conta bancária. Importante: É necessário que a conta informada seja em nome do titular.\n## Não realizamos Montagem do produto\nA Shop JM não oferece serviço de montagem de móveis. Este serviço é de responsabilidade do cliente, que deve contratar uma empresa terceira, ou montador particular, de acordo com sua preferência, para realizar a montagem do produto.\nNo ato da entrega, não nos responsabilizamos por desmontagens; transportes por escadas, portas ou janelas; guincho ou içamentos de produtos adquiridos através do portal shopjm.com.br. Eventuais despesas são de total responsabilidade do cliente.\nConfira as dimensões do produto e certifique-se de que passará normalmente por elevadores, portas e/ou corredores. A conferência da adequação das dimensões dos produtos é de responsabilidade do cliente, que deverá se certificar de que os produtos estão de acordo com os limites de medida do local de entrega.\n",
+      "blockClass": "about"
+    }
+  }
+}

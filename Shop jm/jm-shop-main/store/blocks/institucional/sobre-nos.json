@@ -1,0 +1,40 @@
+{
+  "store.custom#sobre-nos": {
+    "blocks": [
+      "flex-layout.row#sobre-nos"
+    ]
+  },
+  "flex-layout.row#sobre-nos": {
+    "props": {
+      "blockClass": "institucional"
+    },
+    "children": [
+      "flex-layout.col#text-sobre-nos"
+    ]
+  },
+
+  "flex-layout.col#text-sobre-nos": {
+    "children": [
+      "rich-text#title-sobre-nos",
+      "rich-text#sobre-nos"
+    ],
+    "props": {
+      "blockclass": "textColumn",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "rich-text#title-sobre-nos": {
+    "props": {
+      "text":
+      "# QUEM SOMOS",
+      "blockClass": "title"
+    }
+  },
+  "rich-text#sobre-nos": {
+    "props": {
+      "text": "Shop JM, Empresa fundada em 1989, estando localizado em sede administrativa e centro de distribuição, na Rua Francisco Assis Tomás da Silva - 2440, Distrito Industrial, Franca-SP.  \n\nSomos especialistas em móveis residenciais para quarto, sala e cozinha entre outros produtos que possam ser útil para o bem estar humano. Nosso foco é manter laços firmes com nossos clientes prezando sempre pela segurança. Contamos com uma equipe de especialistas pronta para tirar todas as suas dúvidas desde a escolha do modelo ideal até à chegada do produto na sua casa. Nossa equipe também  lhe  manterá informado de todas as etapas da compra. Além disso, contamos com diversos certificados que comprovam a sua segurança durante todo o processo.\nContamos com uma estrutura moderna e diferenciada. Tdo isso para que você possa comprar com segurança no conforto do seu lar.\n",
+      "blockClass": "about"
+    }
+  }
+}

@@ -1,0 +1,44 @@
+.vtex-menu-2-x-menuContainer--toplink {
+    align-items: center;
+}
+
+.vtex-rich-text-0-x-paragraph--toplink {
+    margin: 7px;
+}
+
+.vtex-rich-text-0-x-link--toplink {
+    /* UI Properties */
+    text-decoration: none;
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--preto);
+    text-align: left;
+    font: normal normal normal 14px/14px Lato;
+    letter-spacing: 0px;
+    color: #66666B;
+}
+
+.vtex-rich-text-0-x-link--toplink:hover {
+    /* UI Properties */
+    text-decoration: var(--unnamed-decoration-underline);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--principal);
+    text-align: left;
+    text-decoration: underline;
+    letter-spacing: 0px;
+    color: #170D65;
+    opacity: 1;
+
+}
+
+.vtex-menu-2-x-menuContainerNav--toplink img {
+    margin-right: 10px;
+}
+
+
+.vtex-sticky-layout-0-x-container--sticky-header.fixed {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.vtex-flex-layout-0-x-flexRowContent--main-header-mobile>div>div {
+    line-height: 0;
+  }

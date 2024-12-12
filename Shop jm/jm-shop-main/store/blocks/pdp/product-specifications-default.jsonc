@@ -1,0 +1,79 @@
+{
+  "product-specification-group#default": {
+    "children": [
+      "flex-layout.row#spec-default-group"
+    ]
+  },
+  "flex-layout.row#spec-default-group": {
+    "props": {
+      "blockClass": "productSpecificationGroupDefault"
+    },
+    "children": [
+      "flex-layout.col#spec-default-group"
+    ]
+  },
+  "flex-layout.col#spec-default-group": {
+    "children": [
+      "flex-layout.row#spec-default-group-name",
+      "product-specification#default"
+    ]
+  },
+  "flex-layout.row#spec-default-group-name": {
+    "props": {
+      "blockClass": "productSpecificationGroupDefaultName"
+    },
+    "children": [
+      "product-specification-text#group"
+    ]
+  },
+  "product-specification#default": {
+    "children": [
+      "flex-layout.row#spec-default-item"
+    ]
+  },
+  "flex-layout.row#spec-default-item": {
+    "props": {
+      "blockClass": "productSpecification"
+    },
+    "children": [
+      "flex-layout.col#spec-default-name"
+      // "flex-layout.col#spec-default-value"
+    ]
+  },
+  "flex-layout.col#spec-default-name": {
+    "props": {
+      "blockClass": "productSpecificationName"
+    },
+    "children": [
+      "product-specification-text#specification"
+    ]
+  },
+  "flex-layout.col#spec-default-value": {
+    "props": {
+      "blockClass": "productSpecificationValue"
+    },
+    "children": [
+      "product-specification-values"
+    ]
+  },
+  "product-specification-values": {
+    "children": [
+      "product-specification-text#value"
+    ]
+  },
+  "product-specification-text#group": {
+    "props": {
+      "message": "{groupName}"
+    }
+  },
+  "product-specification-text#specification": {
+    "props": {
+      "message": "{specificationName}"
+    }
+  },
+  "product-specification-text#value": {
+    "props": {
+      "message": "{specificationValue}"
+    }
+  }
+}

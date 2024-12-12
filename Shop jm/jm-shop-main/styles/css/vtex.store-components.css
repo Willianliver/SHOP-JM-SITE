@@ -1,0 +1,230 @@
+.notificationBarContainer {
+  background-color: #e6f1e6;
+  color: #03034e;
+  font-weight: 700;
+  font-size: 12px;
+  text-decoration: underline;
+}
+
+.infoCardContainer--info-card-home {
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1.3fr;
+  margin: 0 auto;
+  background-color: #FAFAFA;
+  padding: 0px;
+  line-height: 1;
+}
+@media (max-width: 991px) {
+  .infoCardContainer--info-card-home {
+    grid-template-columns: 1fr;
+  }
+}
+@media(min-width: 993px){
+  .infoCardImage--info-card-home{
+     width: 100%;
+     max-width: 100%;
+     height: auto;
+     object-fit: cover;
+     object-position: center;
+     margin: 0 auto;
+  }
+}
+
+.newsletter {
+  background-color: #170D65;
+  /* max-width: 1528px; */
+  margin: 0 auto;
+}
+
+.newsletter .t-heading-3 {
+  font-weight: 900;
+}
+
+.newsletter .container {
+  padding: 60px 10px;
+}
+
+.label {
+  color: #fff;
+  font-size: 26px;
+}
+
+.inputGroup {
+  padding-bottom: 4px;
+  display: flex;
+  color: #fff;
+}
+
+.inputGroup :global(.vtex-styleguide-9-x-hideDecorators) {
+  background-color: transparent;
+  color: #fff;
+  border: none;
+}
+
+.inputGroup :global(.vtex-styleguide-9-x-hideDecorators)::placeholder {
+  color: #fff;
+  font-size: 16px;
+}
+
+.inputGroup :global(.vtex-button) {
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  margin-right: -24px;
+}
+
+.buttonContainer {
+  padding-top: 0px;
+}
+
+.imageElement--storePrint {
+  max-height: 300px;
+  margin-bottom: 20px;
+}
+
+.skuSelectorContainer {
+  margin: 0 0 1rem 0;
+}
+
+/* .imageElement--carousel{
+
+} */
+
+@media only screen and (min-width: 640px) {
+  .newsletter .container {
+    padding: 140px;
+  }
+
+  .label {
+    font-size: 40px;
+  }
+
+  .infoCardContainer--info-card-home .infoCardTextContainer {
+    justify-self: center;
+  }
+
+  .infoCardContainer--info-card-home .infoCardImageContainer {
+   width: 100%;
+  }
+
+  .imageElement--storePrint {
+    margin-bottom: 0px;
+    max-height: 600px;
+  }
+}
+
+.productImagesContainer--quickview .carouselContainer {
+  justify-content: flex-start;
+}
+
+.productImagesContainer--quickview .productImageTag {
+  object-fit: cover !important;
+}
+
+.productImagesContainer--quickview .carouselGaleryThumbs {
+  display: none;
+}
+
+.productImagesContainer--quickview .carouselGaleryCursor {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.productNameContainer {
+  /* UI Properties */
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-23)/32.2px Roboto;
+  letter-spacing: var(--unnamed-character-spacing-0);
+  text-align: left;
+  font: normal normal bold 23px/32px Roboto;
+  letter-spacing: 0px;
+  color: #3B3C3D;
+  opacity: 1;
+}
+
+.image {
+  image-rendering: -webkit-optimize-contrast;
+}
+
+.logoImage {
+  /* width: 6.888rem; */
+  /* height: 2.438rem; */
+  width: 100%;
+  height: auto;
+}
+
+.sliderLayoutContainer--carousel-colecao {
+  background-color: white;
+}
+
+.infoCardHeadline--info-card--colecao {
+  color: #2E2E2E;
+  font-size: 20px;
+}
+
+.infoCardCallActionContainer--info-card--colecao {
+  text-decoration: none;
+  margin: 0;
+}
+
+.infoCardCallActionText--info-card--colecao {
+  margin: .75rem 0 0 0;
+}
+
+.infoCardCallActionText {
+  color: #7B7B7B !important;
+  text-decoration: none !important;
+  font-size: 18px;
+}
+
+.infoCardContainer--info-card--colecao {
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+  /* width: 266px; */
+  padding: 2rem 1rem;
+  /* margin: 0 1rem; */
+  background-color: #F1F1F1;
+  border-radius: 10px;
+}
+
+
+.infoCardTextContainer--info-card--colecao {
+  width: 100%;
+}
+
+.autoCompleteOuterContainer {
+  border-radius: 8px;
+}
+
+.frameAround {
+  border-color: #170D65;
+}
+
+
+.skuSelectorName {
+  font-size: 18px;
+  color: #2E2E2E;
+  font-weight: 600;
+}
+
+.skuSelectorSelectorImageValue {
+  font-size: 18px;
+  color: #7B7B7B;
+}
+
+@media (min-width: 992px) {
+  .swiperBullet {
+    width: 14px;
+    height: 14px;
+  }
+}
+
+.swiperBullet {
+  background-color: #ACB7AF;
+}
+
+.swiperBullet--active {
+  background-color: #170D65;
+}

@@ -1,0 +1,44 @@
+{
+    "store.custom#forbidden": {
+        "blocks": [
+            "flex-layout.row#forbidden"
+        ]
+    },
+    "flex-layout.row#forbidden": {
+        "props": {
+            "blockClass": "forbidden",
+            "marginTop": 10,
+            "marginBottom": 10
+        },
+        "children": [
+            // "image#forbidden",
+            "flex-layout.col#text-forbidden"
+        ]
+    },
+    "flex-layout.col#text-forbidden": {
+        "children": [
+            "rich-text#forbidden-title",
+            "rich-text#forbidden-content"
+        ],
+        "props": {
+            "preventVerticalStretch": true,
+            "horizontalAlign" : "center"
+        }
+    },
+    "rich-text#forbidden-title": {
+        "props": {
+            "text": "# Cadastro em análise!"
+        }
+    },
+    "rich-text#forbidden-content": {
+        "props": {
+            "text": " Seu cadastro encontra-se em processo de aprovação."
+        }
+    },
+    "image#forbidden": {
+        "props": {
+            "src": "https://storecomponents.vteximg.com.br/arquivos/mobile-phone.png",
+            "maxHeight": "600px"
+        }
+    }
+}

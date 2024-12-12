@@ -1,0 +1,25 @@
+{
+  "vtex.menu@2.x:menu#topbar": {
+    "props": {
+      "blockClass": ["toplink"]
+    },
+    "children": [
+      "image#phonealt",
+      "rich-text#link1"
+    ]
+  },
+
+  "image#phonealt": {
+    "props": {
+      "blockClass": "phonelogosml",
+      "src": "assets/phone-alt.svg",
+      "maxHeight": "27px"
+    }
+  },
+  "rich-text#link1": {
+    "props": {
+      "text": "[Atendimento: **(16) 99169-3882**](tel:1699169-3882)",
+      "blockClass": "toplink"
+    }
+  }
+}

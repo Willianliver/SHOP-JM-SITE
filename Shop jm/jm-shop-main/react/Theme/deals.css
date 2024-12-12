@@ -1,0 +1,15 @@
+.vtex-flex-layout-0-x-flexRow--deals img {
+    max-height: 36px !important;
+}
+
+@media (max-width:991px) {
+
+    .vtex-flex-layout-0-x-flexRow--deals .vtex-flex-layout-0-x-stretchChildrenWidth .vtex-flex-layout-0-x-flexCol {
+        flex-direction: row !important;
+    }
+
+    .vtex-rich-text-0-x-paragraph--deals {
+        font-size: 14px;
+    }
+
+}

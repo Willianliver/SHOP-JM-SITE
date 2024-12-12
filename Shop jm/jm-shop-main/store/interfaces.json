@@ -1,0 +1,39 @@
+{
+    "custom-theme": {
+        "component": "Theme"
+    },
+    "MenuDesktopVinci": {
+        "component": "MenuDesktopVinciWrapper"
+    },
+    "MenuMobileVinci": {
+        "component": "MenuMobileVinciWrapper"
+    },
+    "CustomFooter": {
+        "component": "CustomFooterWrapper"
+    },
+    "product-specification-custom": {
+        "component": "ProductSpecificationsTabsWrapper"
+    },
+    "footerBottom": {
+        "component": "FooterBottom",
+        "composition": "children"
+    },
+    "breadcrumb": {
+        "component": "Breadcrumb"
+    },
+    "breadcrumb.product": {
+        "component": "ProductBreadcrumb"
+    },
+    "breadcrumb.search": {
+        "component": "SearchBreadcrumb"
+    },
+    "FormFaleConosco": {
+        "component": "FormFaleConoscoWrapper"
+    },
+    "ProductVideo":{
+        "component": "ProductVideo"
+    },
+    "WhatsappBubble": {
+        "component": "WhatsappBubble"
+    }
+}

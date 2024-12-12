@@ -1,0 +1,57 @@
+:root {
+
+    /* Colors: */
+    --cinza-escurop: #69726B;
+    --verde-principal: #170d65;
+    --unnamed-color-3b3c3d: #66666B;
+    --cinza: #170d65;
+
+    /* Font/text values */
+    --unnamed-font-style-normal: normal;
+    --unnamed-font-weight-900: 900px;
+    --unnamed-font-weight-bold: bold;
+    --unnamed-font-weight-normal: normal;
+    --unnamed-font-size-14: 14px;
+    --unnamed-font-size-16: 16px;
+    --unnamed-font-size-18: 18px;
+    --unnamed-font-size-23: 23px;
+    --unnamed-font-size-32: 32px;
+    --unnamed-font-size-46: 46px;
+    --unnamed-character-spacing-0: 0px;
+    --unnamed-line-spacing-14: 14px;
+    --unnamed-line-spacing-24: 24px;
+
+
+    /* Colors: */
+    --cinza-claro: #FAFAFA;
+    --principal: #170D65;
+    --branco: #FFFFFF;
+    --cinza-médio: #EDEDED;
+    --preto: #66666B;
+    --escuro: #0C405B;
+    --laranja: #D26D00;
+    --amarelo-secundário: #FF9E00;
+    --verde-secundário: #39B111;
+    --unnamed-color-ffaf00: #FFAF00;
+    --unnamed-color-333333: #333333;
+
+    /* Font/text values */
+    --unnamed-font-family-lato: Lato;
+    --unnamed-font-style-normal: normal;
+    --unnamed-font-weight-900: 900px;
+    --unnamed-font-weight-bold: bold;
+    --unnamed-font-weight-normal: normal;
+    --unnamed-font-size-12: 12px;
+    --unnamed-font-size-14: 14px;
+    --unnamed-font-size-16: 16px;
+    --unnamed-font-size-18: 18px;
+    --unnamed-font-size-23: 23px;
+    --unnamed-font-size-32: 32px;
+    --unnamed-font-size-46: 46px;
+    --unnamed-character-spacing-0: 0px;
+    --unnamed-line-spacing-14: 14px;
+    --unnamed-line-spacing-24: 24px;
+    --unnamed-line-spacing-19-600000381469727: 19.600000381469727px;
+    --unnamed-decoration-strikethrough: line-through;
+    --unnamed-decoration-underline: underline;
+}

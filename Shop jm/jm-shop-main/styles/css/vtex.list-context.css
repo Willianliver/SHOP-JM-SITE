@@ -1,0 +1,14 @@
+:global(.vtex-flex-layout-0-x-flexRow--menu-row) .list{
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 23px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--menu-row) .item{
+  list-style: none;
+}
+

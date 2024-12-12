@@ -1,0 +1,5 @@
+.vtex-button:hover{
+    border: solid red;
+    background-color: #9BC980 !important;
+    color: white !important;
+}

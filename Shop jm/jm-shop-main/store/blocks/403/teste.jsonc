@@ -1,0 +1,12 @@
+{
+    "store.custom#teste": {
+        "blocks": [
+            "rich-text#teste-title"
+        ]
+    },
+    "rich-text#teste-title": {
+        "props": {
+            "text": "# About us Title"
+        }
+    }
+}

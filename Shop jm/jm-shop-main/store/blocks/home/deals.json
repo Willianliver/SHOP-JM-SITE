@@ -1,0 +1,85 @@
+{
+  "flex-layout.row#deals": {
+    "children": [
+      "flex-layout.col#deals1",
+      "flex-layout.col#deals2",
+      "flex-layout.col#deals3",
+      "flex-layout.col#deals4"
+    ],
+    "props": {
+      "blockClass": "deals"
+    }
+  },
+  "flex-layout.col#deals1": {
+    "children": [
+      "image#deal1",
+      "rich-text#deal1"
+    ]
+  },
+  "image#deal1": {
+    "props": {
+      "src": "assets/metro-credit-card.svg",
+      "maxHeight": "66px"
+    }
+  },
+  "rich-text#deal1": {
+    "props": {
+      "text": "Parcele suas compras \n em até **12x no Cartão**",
+      "blockClass": "deals"
+    }
+  },
+  "flex-layout.col#deals2": {
+    "children": [
+      "image#deal2",
+      "rich-text#deal2"
+    ]
+  },
+  "image#deal2": {
+    "props": {
+      "src": "assets/feather-package.svg",
+      "maxHeight": "66px"
+    }
+  },
+  "rich-text#deal2": {
+    "props": {
+      "text": "Entregamos para \n todo o  **território Nacional**",
+      "blockClass": "deals"
+    }
+  },
+  "flex-layout.col#deals3": {
+    "children": [
+      "image#deal3",
+      "rich-text#deal3"
+    ]
+  },
+  "image#deal3": {
+    "props": {
+      "src": "assets/pix.svg",
+      "maxHeight": "66px"
+    }
+  },
+  "rich-text#deal3": {
+    "props": {
+      "text": "Pague com **PIX** e receba \n **descontos exclusivos**",
+      "blockClass": "deals"
+    }
+  },
+  "flex-layout.col#deals4": {
+    "children": [
+      "image#deal4",
+      "rich-text#deal4"
+    ]
+  },
+  "image#deal4": {
+    "props": {
+      "src": "assets/awesome-whatsapp.svg",
+      "maxHeight": "66px"
+    }
+  },
+  "rich-text#deal4": {
+    "props": {
+      "text": "Faça seu orçamento pelo **Whatsapp** \n Atendemos **projetos personalizados**",
+      "blockClass": "deals"
+    }
+  }
+}

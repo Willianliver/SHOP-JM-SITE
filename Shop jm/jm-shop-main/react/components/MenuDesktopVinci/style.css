@@ -1,0 +1,221 @@
+.loadingMenu {
+    text-align: center;
+    background-color: white;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    padding: .5rem 0;
+}
+
+.loadingMenu svg {
+    height: 30px;
+    width: 30px;
+}
+
+.shop jm {
+    background-color: #170D65;
+    color:white;
+    padding: .5rem 0;
+}
+
+.MenuDesktopVinci {
+    text-decoration: none;
+    display: flex;
+    font-size: 14px;
+
+    padding-left: .5rem;
+    padding-right: 0.25rem;
+    max-width: 96rem;
+    margin: 0 auto;
+}
+
+.hamburguerContainer {
+    /* border: solid green; */
+    justify-content: center;
+}
+
+.categoriasContainer {
+    /* border: solid red; */
+    flex: 1;
+}
+
+.MenuDesktopVinci ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    position: relative;
+
+    max-width: 100%;
+    overflow-x: hidden;
+
+}
+
+.MenuDesktopVinci {
+    text-decoration: none !important;
+}
+
+.MenuDesktopVinci__activeLink {
+    color: white !important;
+    background:#ff9e00;
+}
+
+.MenuDesktopVinci__activeLink span {
+    color: white !important;
+}
+
+.MenuDesktopVinci__activeLink * {
+    fill: white !important;
+}
+
+
+.linkDepartamentos:hover {
+    color: white !important;
+}
+
+.linkDepartamentos:hover .t42892-store-theme-0-x-SubmenuDesktopVinci {
+    display: block !important;
+
+}
+
+.linkDepartamentos {
+    color: white !important;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    gap: .75rem;
+    line-height: 0.5;
+}
+
+.hamburguer {
+    position: relative;
+    top: -1px;
+    max-height: 20px;
+}
+
+.linkDepartamentos * {
+    fill: white !important;
+}
+.linkDepartamentos:hover * {
+    fill: white !important;
+}
+
+.MenuDesktopVinci__ul {
+    text-decoration: none;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    padding: 7px 0;
+box-sizing: border-box;
+}
+
+.MenuDesktopVinci__ul__minimal {
+    text-decoration: none;
+    display: flex;
+    height: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.MenuDesktopVinci__ul__minimal:first-child {
+    margin-left: 1rem;
+}
+
+
+.MenuDesktopVinci__ul_li {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    padding: 14px 7px;
+    font-size: 14px;
+}
+
+.MenuDesktopVinci__ul_li_a {
+    color: white !important;
+    text-decoration: none !important;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    text-transform: lowercase;
+}
+
+.MenuDesktopVinci__ul_li_a::first-letter{
+    text-transform: capitalize;
+}
+
+
+/* SUBMENU */
+.SubmenuDesktopVinci__active {
+    display: flex !important;
+    position: absolute;
+    top: 100%;
+}
+
+.SubmenuDesktopVinci {
+    display: none;
+    width: 100%;
+    background-color: #FAFAFA;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.SubmenuDesktopVinci__content {
+    width: 100%;
+    max-width: 96rem;
+    margin: 0 auto;
+    display: flex;
+    padding: 2.5rem 0 2.5rem 12px;
+}
+
+.SubmenuDesktopVinci__ul {
+    margin: 0;
+    padding: 0 3rem 0 0;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    list-style: none;
+    text-decoration: none;
+}
+
+.SubmenuDesktopVinci__ul a {
+    list-style: none;
+    text-decoration: none;
+    color: #66666B;
+    font-size: 14px;
+    text-transform: lowercase;
+}
+
+.SubmenuDesktopVinci li {
+    margin-bottom: 1rem;
+}
+
+.SubmenuDesktopVinci li::first-letter{
+    text-transform: capitalize;
+}
+
+.SubmenuDesktopVinci li a {
+    letter-spacing: 0.51px;
+}
+
+.SubmenuDesktopVinci li a:hover {
+    font-weight: 900;
+    letter-spacing: 0;
+}
+
+.MenuDesktopVinci_ofertas_link {
+
+    font-weight: 900;
+    letter-spacing: 0.5px!important;
+}
+
+.MenuDesktopVinci_ofertas_link:hover{
+
+    font-weight: 900;
+    letter-spacing: 0.5px!important;
+}
+

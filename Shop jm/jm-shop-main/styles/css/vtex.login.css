@@ -1,0 +1,13 @@
+.profile {
+    padding: 0;
+}
+
+.label {
+    padding: 0!important;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-14)/var(--unnamed-line-spacing-14) var(--unnamed-font-family-lato);
+    color: var(--preto);
+    text-align: left;
+    letter-spacing: 0px;
+    opacity: 1;
+    text-transform: capitalize;
+}

@@ -1,0 +1,112 @@
+{
+    "flex-layout.row#vitrine1-title": {
+        "props": {
+            "marginTop": 6
+        },
+        "children": [
+            "rich-text#shelf-title"
+        ]
+    },
+    "rich-text#shelf-title": {
+        "props": {
+            "text": "## **Mais Vistos**",
+            "blockClass": "shelfTitle"
+        }
+    },
+    "flex-layout.row#vitrine1": {
+        "props": {
+            "marginBottom" : 8
+        },
+        "children": [
+            "list-context.product-list#vitrine1"
+        ]
+    },
+    "list-context.product-list#vitrine1": {
+        "blocks": [
+            "product-summary.shelf"
+        ],
+        "children": [
+            "slider-layout#vitrine1"
+        ],
+        "props": {
+            "collection": "137",
+            "orderBy": "OrderByTopSaleDESC"
+        }
+    },
+    "slider-layout#vitrine1": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 4,
+                "tablet": 3,
+                "phone": 1
+            },
+            "infinite": true,
+            "fullWidth": false,
+            "blockClass": "shelf"
+        }
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    "flex-layout.row#viitrine3-title": {
+        "props": {
+            "marginTop": 6
+        },
+        "children": [
+            "rich-text#shelf-title3"
+        ]
+    },
+    "rich-text#shelf-title3": {
+        "props": {
+            "text": "## **Mais Vendidos**",
+            "blockClass": "shelfTitle"
+        }
+    },
+    "flex-layout.row#viitrine3": {
+        "props": {
+            "marginBottom" : 8
+        },
+        "children": [
+            "list-context.product-list#viitrine3"
+        ]
+    },
+    "list-context.product-list#viitrine3": {
+        "blocks": [
+            "product-summary.shelf"
+        ],
+        "children": [
+            "slider-layout#viitrine3"
+        ],
+        "props": {
+            "collection": "137",
+            "orderBy": "OrderByTopSaleDESC"
+        }
+    },
+    "slider-layout#viitrine3": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 4,
+                "tablet": 3,
+                "phone": 1
+            },
+            "infinite": true,
+            "fullWidth": false,
+            "blockClass": "shelf"
+        }
+    }
+}

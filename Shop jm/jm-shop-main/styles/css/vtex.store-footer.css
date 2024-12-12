@@ -1,0 +1,17 @@
+.row--menu-row {
+  padding-right: 24px;
+  border: solid;
+}
+
+.row--menu-row .rowContainer {
+  align-items: flex-start;
+}
+
+.row--payment-methods {
+  padding-top: 16px;
+}
+
+
+.socialNetworkWrapper--social-networks{
+  margin-top: 1rem;
+}

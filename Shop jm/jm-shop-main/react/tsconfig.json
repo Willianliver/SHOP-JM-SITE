@@ -1,0 +1,30 @@
+{
+  "extends": "@vtex/tsconfig",
+  "compilerOptions": {
+    "lib": [
+      "es5",
+      "es6",
+      "dom"
+    ],
+    "jsx": "react",
+    "noEmitOnError": false,
+    "typeRoots": [
+      "node_modules/@types",
+      "../@types"
+    ],
+    "types": [
+      "node",
+      "jest"
+    ],
+    "module": "esnext",
+    "moduleResolution": "node",
+    "target": "es2017"
+  },
+  "include": [
+    "./types/*.d.ts",
+    "./**/*.tsx",
+    "./**/*.ts",
+    "components/MenuDesktopVinci/index.js",
+    "Theme.js"
+  ]
+}

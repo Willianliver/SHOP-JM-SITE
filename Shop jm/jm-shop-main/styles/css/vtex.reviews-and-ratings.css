@@ -1,0 +1,35 @@
+.container {
+  max-width: 96rem;
+}
+
+@media (max-width: 992px) {
+  .container {
+    padding-left: .5rem;
+    padding-right: .5rem;
+  }
+
+}
+
+.inlineContainer {
+  margin-left: 0rem;
+}
+
+.star--empty,
+.star--filled {
+  color: #FF9E00 !important;
+}
+
+.graphBar {
+  background-color: #FF9E00;
+}
+
+
+.writeReviewButton {
+  color: #170D65;
+  text-decoration: underline;
+  font-weight: 900;
+}
+
+.reviewsOrderBy {
+  color: #9A9A9A;
+}

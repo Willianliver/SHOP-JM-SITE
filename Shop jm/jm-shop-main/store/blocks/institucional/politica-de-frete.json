@@ -1,0 +1,39 @@
+{
+  "store.custom#politica-de-frete": {
+    "blocks": [
+      "flex-layout.row#politica-de-frete"
+    ]
+  },
+  "flex-layout.row#politica-de-frete": {
+    "props": {
+      "blockClass": "institucional"
+    },
+    "children": [
+      "flex-layout.col#text-politica-de-frete"
+    ]
+  },
+  "flex-layout.col#text-politica-de-frete": {
+    "children": [
+      "rich-text#title-politica-de-frete",
+      "rich-text#politica-de-frete"
+    ],
+    "props": {
+      "blockclass": "textColumn",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "rich-text#title-politica-de-frete": {
+    "props": {
+      "text":
+      "# POLÍTICA DE ENTREGA",
+      "blockClass": "title"
+    }
+  },
+  "rich-text#politica-de-frete": {
+    "props": {
+      "text": "Os produtos comprados através do site oficial da Shop JM, são entregues em todo território nacional, por meio de transportadoras particulares.\n\nOs prazos de entrega, variam de acordo com a disponibilidade do produto, os prazos atualizados são facilmente consultados na página do produto, digitando o CEP de destino.\n\nA postagem da encomenda varia de acordo com a disponibilidade do produto, em caso de produto localizado no Centro de Distribuição de Franca-SP, acontece em até 24h úteis, após a aprovação do pedido. Em caso de encomendas crossdocking funciona da seguinte modalidade:\n\n- O prazo estará mais elevado, por que? Após finalizar o pedido, será feito um pedido automaticamente na indústria responsável, a mesma irá fabricar e nos sinalizar que o pedido está pronto para coleta, iremos coletar e entregar no endereço de destino escolhido pelo cliente, no momento da compra. Em alguns casos pode acontecer de entregar antes, mas é sempre válido considerar o último prazo de entrega proposto no  momento da compra.\n\n\n\n## Como calcular meu prazo de entrega?\n\nApós a aprovação do seu pedido o mesmo irá constar como \"PROCESSANDO\", somente com este status de processando, dentro do seu painel de acesso que você pode começar a contar o seu prazo, em caso de PENDENTE seu pedido pode: Estar em análise pela operadora de cartão de crédito ou aguardando aprovação do BOLETO BANCÁRIO. O seu prazo começa a contar, após 24h úteis de aprovação, que é o tempo de preparo e proteção de suas embalagens.\n\n\n\n## Condições especiais:\n\nSão condições especiais de FRETE GRÁTIS, quando a loja faz alguma comunicação visual dentro da sua loja oficial: www.shopjm.com.br, por tempo indeterminado e somente quando há comunicações e locais especificados, neste caso a empresa arcará com o custo do frete, não repassando-o ao cliente.\n\n\n\nTodos os nossos produtos são entregues desmontados, exceto quando há uma comunicação especial informando que o produto será entregue montado.\n\n\n\n## Quando recusar a entrega:\n\nOs produtos são enviados ao cliente exatamente como nos foram entregues pelo fabricante. Se ocorrer qualquer das hipóteses abaixo, recuse o recebimento da mercadoria e escreva o motivo da recusa no verso do DANFE:\n\n• embalagem aberta ou avariada;\n\n• produto avariado;\n\n• produto em desacordo com o pedido;\n\n• falta de acessórios.\n\nSe, ainda assim, você aceitar o produto, por favor, entre em contato com o setor de atendimento ao cliente em até 72 horas.\n\n\n\n## Compromisso das transportadoras:\n\nEm caso de ausência do destinatário, as transportadoras têm o compromisso de realizar até três tentativas de entrega, em dias alternados, com intervalos de até 48 horas entre uma e outra.\n\nA entrega só pode ser realizada a uma pessoa maior de 18 anos que apresente documento de identificação.\n\nÉ vedado à transportadora:\n\n• entrar no domicílio;\n\n• entregar por meios alternativos (exemplo: içar produto por janela);\n\n• realizar instalação ou manutenção de produtos;\n\n• abrir a embalagem do produto;\n\n• coletar produtos de devolução;\n\n• realizar entrega em endereço diferente ao que consta no DANFE;\n\n• realizar entrega a menores de idade ou sem documento de identificação.\n\n\n\n## Situações em que pode ocorrer atraso na entrega:\n\nSe houver três tentativas de entrega sem sucesso, o pedido retornará para o Centro de Distribuição. Para que seja realizada nova tentativa é preciso confirmar o endereço. O prazo para reenvio do produto será o mesmo que foi informado na finalização do pedido e conta a partir da confirmação do endereço.\n\n**IMPORTANTE:** por motivos de segurança, em hipótese alguma nossos operadores alteram o endereço de entrega ou os dados cadastrais dos clientes.\n\nCaso tenha fornecido o endereço incompleto, entre em contato com o setor de atendimento ao cliente e informe os dados que faltaram.\n\n**IMPORTANTE:** será possível, somente, acrescentar informações complementares como bloco, andar, ponto de referência. Não é permitido alterar o nome da rua ou o número do prédio/casa, por exemplo.\n\nFatores naturais e adversos: chuvas fortes, acidentes ou greves na região onde o produto deveria ser entregue impossibilitam a chegada do transportador.\n",
+      "blockClass": "about"
+    }
+  }
+}

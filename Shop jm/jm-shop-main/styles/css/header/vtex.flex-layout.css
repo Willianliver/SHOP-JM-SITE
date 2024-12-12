@@ -1,0 +1,51 @@
+.flexRow--menu-link{
+  background-color: white;
+  color:tomato;
+}
+
+.flexRowContent--menu-link{
+  justify-content: end;
+}
+
+@media screen and (min-width: 80rem) {
+  .flexRowContent--menu-link,
+  .flexRowContent--main-header {
+    padding:  0.25rem;
+  }
+}
+
+.flexRowContent--menu-link {
+  color: #fff;
+}
+
+.flexRowContent--main-header {
+  background-color: #FFFFFF;
+  padding: 1rem 0;
+}
+
+.flexRowContent--main-header-mobile {
+  align-items: center;
+  padding: 0.625rem 0.5rem;
+  background-color: #FFFFFF;
+}
+
+.flexRowContent--menu-link :global(.vtex-menu-2-x-styledLink) {
+  color: #66666B;
+  font-size: 14px;
+}
+
+.flexRowContent--main-header :global(.vtex-menu-2-x-styledLink) {
+  color: #7B7B7B;
+  font-size: 14px;
+}
+
+
+.flexRow--main-header{
+  background-color: #FFFFFF;
+  padding: 0;
+}
+
+
+.flexColChild--search-bar{
+  display: flex;
+}

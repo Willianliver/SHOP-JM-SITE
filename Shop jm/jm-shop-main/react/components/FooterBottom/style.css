@@ -1,0 +1,48 @@
+.copy{
+  padding: 10px 0;
+  background-color: #424244;
+}
+
+.content{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+  width: 100%;
+}
+
+.payment ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.payment li {
+  list-style: none;
+}
+
+.content p {
+  color: #FFFFFF;
+  font-size: 11px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.vinci, .vtex{
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+  font-size: 12px;
+  font-weight: 700;
+  gap: 15px;
+}
+
+@media (max-width: 1026px) {
+  .content{
+    flex-direction: column;
+  }
+}

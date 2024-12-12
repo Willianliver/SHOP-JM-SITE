@@ -1,0 +1,20 @@
+.ul{
+    list-style: none;
+    padding-left: 1rem;
+    margin-top: 0;
+}
+
+.ul li{
+    padding-bottom: 1.2rem;
+    text-transform: lowercase;
+}
+
+.ul li::first-letter{
+    text-transform: uppercase;
+}
+
+.ul li a{
+    color: #170D65;
+    text-decoration: none!important;
+    font-size: 14px;
+}

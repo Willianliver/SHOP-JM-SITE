@@ -1,0 +1,42 @@
+
+/* desktop/mobile main header padding and background transitions */
+:global(.vtex-flex-layout-0-x-flexRowContent--main-header),
+:global(.vtex-flex-layout-0-x-flexRowContent--main-header-mobile) {
+  transition: background 0.3s ease;
+  will-change: padding, background;
+}
+/*
+ * remove the extra padding when stuck from the desktop header
+ * we add a transition only when "stuck" for the "unstick" step seem faster
+ */
+:global(.vtex-sticky-layout-0-x-wrapper--stuck)
+  :global(.vtex-flex-layout-0-x-flexRowContent--main-header) {
+  transition: padding 0.3s ease, background 0.3s ease;
+  padding: 1rem 0;
+}
+
+
+/* stick wrapper with the same color as the desktop/mobile header */
+:global(.vtex-sticky-layout-0-x-wrapper--sticky-header) {
+  background-color: #fff;
+  box-shadow: 0px 3px 6px #00000029;
+}
+
+/* resize the logo for neat effect */
+:global(.vtex-sticky-layout-0-x-wrapper--stuck)
+  :global(.vtex-store-components-3-x-logoLink) {
+  transform: scale(0.85);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :global(.vtex-sticky-layout-0-x-container)
+    :global(.vtex-store-components-3-x-logoLink),
+  :global(.vtex-sticky-layout-0-x-container)
+    :global(.vtex-minicart-2-x-openIconContainer),
+  :global(.vtex-sticky-layout-0-x-container)
+    :global(.vtex-store-components-3-x-searchBarContainer),
+  :global(.vtex-sticky-layout-0-x-wrapper--stuck)
+    :global(.vtex-flex-layout-0-x-flexRowContent--main-header) {
+    transition: none;
+  }
+}

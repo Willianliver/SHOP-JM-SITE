@@ -1,0 +1,178 @@
+.container--deals {
+  /* UI Properties */
+  font: var(--unnamed-font-style-normal) normal medium var(--unnamed-font-size-14)/19.6px Roboto;
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--branco);
+  text-align: left;
+  font: normal normal medium 14px/20px Roboto;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+}
+
+.container--title {
+  color: #7B7B7B;
+  justify-content: center;
+  text-align: center;
+}
+
+.container--shelfTitle {
+  color: #170D65;
+  justify-content: center;
+  text-align: center;
+  font-size: 3.125;
+}
+
+.headingLevel2--shelfTitle {
+  font-weight: 200;
+}
+
+.paragraph--deals {
+  margin: 0;
+  font-size: 16px;
+}
+
+.container--link {
+  justify-content: center;
+}
+
+.container--question {
+  justify-content: center;
+}
+
+.container--question .paragraph {
+  text-align: center;
+  max-width: 540px;
+  margin: 0 16px;
+  padding-top: 120px;
+  color: #03034E;
+}
+
+.container--question .strong {
+  font-size: 32px;
+  line-height: 2rem;
+  font-weight: 700;
+}
+
+.container--link .paragraph {
+  text-align: center;
+  max-width: 540px;
+  padding-top: 36px;
+  padding-bottom: 84px;
+  color: #03034E;
+}
+
+.container--link .strong {
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.container--link .link {
+  text-decoration: none;
+  font-size: 36px;
+  font-weight: 300;
+  color: #03034E;
+}
+
+.container--title {
+  color: #03034E;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+@media only screen and (min-width: 640px) {
+  .container--question .strong {
+    font-size: 40px;
+    line-height: 3rem;
+  }
+
+  .container--about {
+    max-width: 85%;
+  }
+
+  .container--title {
+    color: #03034E;
+    font-size: 40px;
+    font-weight: 700;
+    max-width: 60%;
+  }
+
+  .container--title .paragraph {
+    line-height: 1.3em;
+  }
+}
+
+
+
+.paragraph--marca-parceira {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #7B7B7B;
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.container--logo {
+  text-align: center;
+}
+
+.wrapper--contato {
+  padding: 0;
+  margin: 0;
+}
+
+.link--contato {
+  text-decoration: none;
+  color: #2E2E2E;
+}
+
+.paragraph--contato {
+  color: #333333;
+  margin: 0 0 1rem 0;
+}
+
+.wrapper--selo-seguranca {
+  color: white;
+  width: 226px;
+  height: 70px;
+  background-color: #2E2E2E;
+  font-weight: 800;
+  font-size: 18px;
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center
+}
+
+
+.paragraph--powered-by {
+  display: flex;
+  align-items: center;
+  gap: 2.5rem;
+}
+
+.image--payment-methods {
+  margin: 5px 1rem 0 0;
+}
+
+.paragraph--banner-whatsapp {
+  line-height: 0;
+}
+
+.paragraph--banner-whatsapp {
+  margin: 0;
+}
+
+.headingLevel5 {
+  /* font-size: 24px; */
+  color: #2E2E2E;
+  font-weight: 600;
+}
+
+
+.image--logo{
+  min-width: 190px;
+  min-height: 146px;
+}

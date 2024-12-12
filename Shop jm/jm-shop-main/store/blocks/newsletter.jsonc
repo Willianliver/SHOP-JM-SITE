@@ -1,0 +1,85 @@
+{
+    "newsletter-form": {
+        "props": {
+            "blockClass": "newsletter"
+        },
+        "children": [
+            "WhatsappBubble",
+            "flex-layout.row#news-texts",
+            "flex-layout.row#news-inputs"
+        ]
+    },
+    "flex-layout.row#news-texts": {
+        "props": {
+            "preventHorizontalStretch": true,
+            "fullWidth": false,
+            "horizontalAlign" : "center"
+        },
+        "children": [
+            "flex-layout.col#news-texts"
+        ]
+    },
+    "flex-layout.col#news-texts": {
+        "children": [
+            "rich-text#newsletter-header",
+            "rich-text#newsletter-text"
+        ]
+    },
+    "flex-layout.row#news-inputs": {
+        "props": {
+            "preventHorizontalStretch": true,
+            "fullWidth": false,
+            "horizontalAlign" : "center"
+        },
+        "children": [
+            "flex-layout.col#news-inputs"
+        ]
+    },
+    "flex-layout.col#news-inputs": {
+        "props" : {
+            "blockClass": "newsletter-inputs"
+        },
+        "children": [
+            "newsletter-input-email",
+            "newsletter-input-name",
+            "newsletter-submit"
+        ]
+    },
+    "newsletter-input-email": {
+        "props": {
+            "blockClass": "text",
+            "placeholderText": "Digite seu e-mail"
+        }
+    },
+    "newsletter-input-name": {
+        "props": {
+            "blockClass": "text",
+            "placeholderText": "Digite seu nome"
+        }
+    },
+    "newsletter-submit": {
+        "props": {
+            "blockClass": "text",
+            "submitButtonLabel": "Assinar"
+        }
+    },
+    "rich-text#newsletter-header": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "text",
+            "textColor": "c-on-emphasis",
+            "font": "t-heading-2",
+            "text": "Cadastre-se em nossa NEWSLETTER"
+        }
+    },
+    "rich-text#newsletter-text": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "textColor": "c-on-emphasis",
+            "blockClass": "text",
+            "text": "e receba ofertas e novidades seu e-mail"
+        }
+    }
+}

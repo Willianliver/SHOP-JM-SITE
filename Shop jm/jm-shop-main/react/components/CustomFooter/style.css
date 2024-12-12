@@ -1,0 +1,44 @@
+.customFooterContent {
+    display: flex;
+}
+
+@media(min-width: 993px) {
+    .customFooterContent nav {
+        /* flex: 1; */
+        padding: 0 3rem 0 0;
+    }
+}
+
+@media (max-width:993px) {
+    .customFooterContent{
+        justify-content: center;
+    }
+    .customFooterContent nav {
+        text-align: center;
+        padding: 0;
+    }
+}
+
+.customFooterContent ul {
+    padding: 0;
+    margin: 0;
+}
+
+.customFooterContent ul li {
+    list-style: none;
+    padding: 0 0 1.2rem 0;
+    text-transform: lowercase;
+}
+
+.customFooterContent ul li::first-letter {
+    text-transform: uppercase;
+}
+
+.customFooterContent ul li a {
+    text-decoration: none;
+    color: #333333;
+}
+
+.customFooterContent ul li a:hover {
+    font-weight: 800;
+}

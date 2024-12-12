@@ -1,0 +1,17 @@
+{
+    "info-card#home": {
+        "props": {
+            "id": "info-card-home",
+            "isFullModeStyle": false,
+            "textPosition": "left",
+            "imageUrl": "assets/infocard.png",
+            "textMode" : "rich-text",
+            "headline": "## Confira nosso **Outlet**",
+            "subhead" : "Acesse promoções exclusivas com os melhores preços para os melhores produtos. Não perca essa oportunidade!",
+            "callToActionText": "Clique e confira",
+            "callToActionUrl": "/sale/d",
+            "blockClass": "info-card-home",
+            "textAlignment": "left"
+        }
+    }
+}

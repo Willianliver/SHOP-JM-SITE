@@ -1,0 +1,166 @@
+<style>
+    footer hr {
+        margin: 0;
+    }
+
+    footer .redes-sociais img{
+        max-width: 20px;
+        max-height: 20px;
+    }
+    footer .redes-sociais img + img{
+        margin-right: 0.5rem;
+    }
+
+    .dark {
+        background-color: #69726B;
+        color: white;
+        padding: 1rem 0;
+    }
+
+    img.logo {
+        max-height: 85px;
+    }
+
+    footer.checkout-footer {
+        padding: 1rem 0 0 0;
+    }
+
+    .cartoes img,
+    .poweredby img {
+        max-height: 30px;
+    }
+
+    .poweredby {
+        display: flex;
+        gap: 1rem;
+    }
+
+
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    .d-column {
+        flex-direction: column;
+    }
+
+    .politicas-container{
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .siga-container{
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    @media (min-width: 993px) {
+        .row {
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            padding: 1rem 0;
+        }
+
+        .col-4 {
+            width: 33.33%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .col-6 {
+            width: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+
+    @media(max-width: 993px) {
+
+        .row {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+            gap: 1rem;
+            padding: 1rem .125rem;
+        }
+
+        .col-4,
+        .col-6,
+        .redes-sociais
+        {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            text-align: center;
+        }
+
+        .redes-sociais{
+            gap: 10px;
+            width: 100%;
+            flex-direction: row;
+        }
+
+        .politicas-container{
+            margin-bottom: 1.5rem;
+        }
+    }
+</style>
+<footer class="checkout-footer">
+    <hr>
+    <div class="row institucional">
+        <div class="col-4 d-column">
+            <span><strong>Atendimento ao consumidor</strong></span>
+            <span> (16) 99169-3882</span>
+            <span>sac@.com.br</span>
+        </div>
+        <div class="col-4">
+            <img class="logo" src="/arquivos/logo.png">
+        </div>
+        <div class="col-4">
+            <div class="col-6 d-flex politicas-container">
+                <a href="/politica-de-privacidade">Política de Privacidade</a>
+                <a href="/termos-de-uso">Termos de Uso</a>
+            </div>
+            <div class="col-6 siga-container">
+                <div><strong>Siga a Shop JM</strong></div>
+                <div class="redes-sociais">
+                    <a href="https://www.instagram.com//" target="_blank"><img src="/arquivos/iconinstagram.svg"></a>
+                    <a href="http://facebook.com/" target="_blank"><img src="/arquivos/iconfacebook.svg"></a>
+                    <a href="https://twitter.com/" target="_blank"><img src="/arquivos/icontwitter.svg"></a>
+                    <a href="https://www.tiktok.com/@" target="_blank"><img src="/arquivos/icontiktok.svg"></a>
+                    <a href="https://www.youtube.com/c/" target="_blank"><img src="/arquivos/iconyoutube.svg"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row dark">
+        <div class="col-4">
+            <span>Copyright © 2023 M B COMERCIO MOVELEIRO E ELETRODOMESTICOS LTDA. Todos os direitos são reservados. CNPJ: 02.513.287/0001-89</span>
+        </div>
+        <div class="cartoes col-4">
+            <img height="25px" src="/arquivos/bandeiras-cartoes.png">
+        </div>
+        <div class="poweredby col-4">
+            <div>
+                <span><strong>Desenvolvido por:</strong></span>
+                <a href="https://vtex.com/" target="_blank">
+                    <img height="32px" src="/arquivos/vinci-logo-white.png">
+                </a>
+            </div>
+            <div>
+                <span><strong>Powered by:</strong></span>
+                <a href="https://vtex.com/" target="_blank">
+                    <img height="32px" src="/arquivos/vtex-logo-white.png">
+                </a>
+            </div>
+        </div>
+    </div>
+</footer>

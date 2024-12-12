@@ -1,0 +1,78 @@
+.flexRow--deals {
+  background-color: #FF9E00;
+  padding: 1.2rem 0px;
+}
+
+.flexRow--deals .flexRowContent{
+  gap: 8rem;
+}
+
+.flexRow--deals .stretchChildrenWidth .flexColChild{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: left;
+}
+
+.flexRow--deals .stretchChildrenWidth .flexCol{
+  flex-direction: row;
+  justify-content: center;
+  gap: .75rem;
+}
+
+.flexCol--filterCol {
+  max-width: 500px;
+  min-width: 230px;
+}
+
+.flexCol--productCountCol {
+  align-items: flex-start;
+}
+
+.flexCol--orderByCol {
+  align-items: flex-end;
+}
+
+.flexCol--orderByMobileCol {
+  width: 42%;
+}
+
+.flexCol--filterMobileCol {
+  width: 38%;
+}
+
+.flexRow--quickviewMainRow {
+  display: flex;
+  max-height: 100%;
+}
+
+.flexColChild--quickviewDetails:first-child {
+  overflow-y: auto;
+  height: 66% !important;
+  overflow-x: hidden;
+}
+
+.flexColChild--quickviewDetails:last-child {
+  height: 34% !important;
+}
+
+.flexRow--addToCartRow {
+  padding-bottom: 1rem;
+}
+
+.flexRow--footer-institucional{
+  background-color: #69726B;
+  color: white;
+}
+
+.flexColChild--institucional-powered-by{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.flexRowContent--tag-economize {
+  flex-wrap: wrap;
+  gap: 7px;
+
+}

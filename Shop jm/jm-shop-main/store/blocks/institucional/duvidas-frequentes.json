@@ -1,0 +1,40 @@
+{
+  "store.custom#duvidas-frequentes": {
+    "blocks": [
+      "flex-layout.row#duvidas-frequentes"
+    ]
+  },
+  "flex-layout.row#duvidas-frequentes": {
+    "props": {
+      "blockClass": "institucional"
+    },
+    "children": [
+      "flex-layout.col#text-duvidas-frequentes"
+    ]
+  },
+
+  "flex-layout.col#text-duvidas-frequentes": {
+    "children": [
+      "rich-text#title-duvidas-frequentes",
+      "rich-text#duvidas-frequentes"
+    ],
+    "props": {
+      "blockclass": "textColumn",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "rich-text#title-duvidas-frequentes": {
+    "props": {
+      "text":
+      "# Dúvidas frequentes",
+      "blockClass": "title"
+    }
+  },
+  "rich-text#duvidas-frequentes": {
+    "props": {
+      "text": "## Dúvida 1\nlorem ipsum dolor sit amet\n\n## Dúvida 2\nlorem ipsum dolor sit amet\n",
+      "blockClass": "about"
+    }
+  }
+}

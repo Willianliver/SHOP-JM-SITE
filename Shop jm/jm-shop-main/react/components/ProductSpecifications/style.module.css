@@ -1,0 +1,29 @@
+.specificationsTable {
+    border-collapse: collapse;
+    border-spacing: 0;
+    color: #424344;
+    width: 100%;
+}
+
+@media(min-width: 1024px){
+    .specificationsTable{
+        max-width: 60%;
+    }
+}
+
+.especificationName {
+    font-weight: 600;
+}
+
+.specificationRow td, .specificationRow th {
+    padding: 15px 10px;
+    text-align: justify;
+}
+.specificationRow td:first-child {
+    text-align: left;
+}
+
+/* table zebra striped */
+.specificationRow:nth-child(even) {
+    background-color: #F4F4F6;
+}

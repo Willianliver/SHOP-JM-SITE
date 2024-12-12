@@ -1,0 +1,162 @@
+{
+  "header": {
+    "blocks": [
+      "header-layout.desktop",
+      "header-layout.mobile"
+    ]
+  },
+  "header.full": {
+    "blocks": [
+      "header-layout.desktop",
+      "header-layout.mobile"
+    ]
+  },
+  "flex-layout.row#telemarketing": {
+    "children": ["telemarketing"],
+    "props": {
+      "fullWidth": true
+    }
+  },
+  "header-layout.desktop": {
+    "children": [
+      "custom-theme",//the magic happens here
+      "flex-layout.row#telemarketing",
+      "flex-layout.row#topbar",
+      "sticky-layout#mainmenu-desktop"
+    ]
+  },
+  "flex-layout.row#topbar": {
+    "props": {
+      "blockClass": "menu-link",
+      "horizontalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": false
+    },
+    "children": [
+      "vtex.menu@2.x:menu#topbar"
+    ]
+  },
+  "flex-layout.col#spacer": {
+    "props": {
+      "width": "grow"
+    }
+  },
+  "flex-layout.col#search": {
+    "props": {
+      "width": "grow",
+      "blockClass": "search-bar"
+    },
+    "children": [
+      "search-bar#search"
+    ]
+  },
+  "sticky-layout#mainmenu-desktop": {
+    "props": {
+      "blockClass": "sticky-header"
+    },
+    "children": [
+      "flex-layout.row#logo-search-login-cart",
+      "MenuDesktopVinci"
+    ]
+  },
+  "flex-layout.row#logo-search-login-cart": {
+    "props": {
+      "blockClass": "main-header",
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": false
+    },
+    "children": [
+      "flex-layout.col#logo-desktop",
+      "flex-layout.col#spacer",
+      "flex-layout.col#search",
+      // "search-bar#search",
+      // "flex-layout.col#spacer",
+      "login",
+      "minicart.v2"
+    ]
+  },
+  "search-bar#search": {
+    "props": {
+      "blockClass": "search-bar",
+      "placeholder" : "Digite o que você busca",
+      "openAutocompleteOnFocus": true
+    }
+  },
+  "login": {
+    "props": {
+      "showIconProfile": true,
+      "iconLabel": "Entrar"
+    }
+  },
+  "flex-layout.col#logo-desktop": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": [
+      "logo#desktop"
+    ]
+  },
+  "logo#desktop": {
+    "props": {
+      "width": 170,
+      "height": 85,
+      "title": "Logo",
+      "href": "/",
+      "url": "assets/logo.png"
+    }
+  },
+  "header-layout.mobile": {
+    "children": [
+      "custom-theme",//the magic happens here
+      "sticky-layout#1-mobile"
+    ]
+  },
+  "sticky-layout#1-mobile": {
+    "children": [
+      "flex-layout.row#1-mobile",
+      "flex-layout.row#2-mobile"
+    ]
+  },
+  "flex-layout.row#1-mobile": {
+    "children": [
+      // "drawer",
+      "MenuMobileVinci",
+      "image#logo",
+      "flex-layout.col#spacer",
+      "login",
+      "minicart.v2"
+    ],
+    "props": {
+      "blockClass": "main-header-mobile",
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    }
+  },
+  "flex-layout.row#2-mobile": {
+    "children": [
+      "flex-layout.col#search"
+    ],
+    "props": {
+      "blockClass": "main-header-mobile-2",
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    }
+  },
+
+  "image#logo": {
+    "props": {
+      "blockClass": "logo-mobile",
+      "src": "assets/logo.png",
+      "maxHeight": "50px",
+      "link": {
+        "$ref": "/"
+      }
+    }
+  }
+}
