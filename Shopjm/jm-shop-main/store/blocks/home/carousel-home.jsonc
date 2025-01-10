@@ -32,7 +32,11 @@
           },
           "infinite": true,
           "showNavigationArrows": "desktopOnly",
-          "blockClass": "carousel"
+          "blockClass": "carousel",
+          "autoplay": {
+            "timeout": 5000,
+            "stopOnHover": true
+          }
         }
       }
 }
