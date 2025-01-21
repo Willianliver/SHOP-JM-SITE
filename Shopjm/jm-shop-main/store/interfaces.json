@@ -5,8 +5,12 @@
     "MenuDesktopVinci": {
         "component": "MenuDesktopVinciWrapper"
     },
+ 
     "MenuMobileVinci": {
         "component": "MenuMobileVinciWrapper"
+    },
+    "Circlescategories":{
+        "component": "Circlescategories"
     },
     "CustomFooter": {
         "component": "CustomFooterWrapper"

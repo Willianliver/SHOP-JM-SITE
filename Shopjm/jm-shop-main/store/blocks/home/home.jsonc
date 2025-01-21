@@ -6,6 +6,7 @@
     "blocks": [
       "list-context.image-list#carousel-home",
       "flex-layout.row#deals",
+      "Circlescategories",
       "__fold__",
       "flex-layout.row#vitrine1-title",
       "flex-layout.row#vitrine1",
