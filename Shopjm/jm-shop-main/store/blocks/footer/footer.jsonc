@@ -12,7 +12,8 @@
       "flex-layout.col#footer-3-desktop",
       "flex-layout.col#footer-4-desktop",
       "flex-layout.col#footer-5-desktop",
-      "flex-layout.col#footer-6-desktop"
+      "flex-layout.col#footer-6-desktop",
+      "flex-layout.col#footer-7-desktop"
     ],
     "props": {
       "blockClass": "menu-row",
@@ -175,7 +176,27 @@
       "src": "assets/footer/vtex-pci-100-bw.png"
     }
   },
-
+"flex-layout.col#footer-7-desktop":{
+    "children": ["rich-text#footer-7-desktop", "image#reclame-aqui"],
+    "props": {
+      "preventVerticalStretch": true
+    }
+  },
+  "rich-text#footer-7-desktop":{    
+    "props": {
+      "text": "### Certificados",
+      "blockClass": "footerTitle"
+    }
+  },
+  "image#reclame-aqui":{
+    "props": {
+      "src": "https://tfdjho.vtexassets.com/arquivos/ids/160778",
+      "link" :{
+              "url": "https://www.reclameaqui.com.br/empresa/shop-jm/",
+              "newTab": true
+            }
+    }
+  },
   "flex-layout.row#footer-footerBottom":{
     "children":[
       "footerBottom"

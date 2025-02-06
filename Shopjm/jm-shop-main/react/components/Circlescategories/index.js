@@ -11,14 +11,14 @@ const CustomHighlights = () => {
   const carouselRef = useRef(null); // Referência para o container do carrossel
 
   const categoryImages = {
-    "Quarto Infantil": 'https://tfdjho.vtexassets.com/arquivos/ids/160343',
-    "Quarto": 'https://tfdjho.vtexassets.com/arquivos/ids/160345',
-    "Sala de Estar": 'https://tfdjho.vtexassets.com/arquivos/ids/160347',
-    "Escritório": 'https://tfdjho.vtexassets.com/arquivos/ids/160342',
-    "Cozinha": 'https://tfdjho.vtexassets.com/arquivos/ids/160341',
-    "Sala de Jantar": 'https://tfdjho.vtexassets.com/arquivos/ids/160346',
-    "Área Externa": 'https://tfdjho.vtexassets.com/arquivos/ids/160339',
-    "Banheiro": 'https://tfdjho.vtexassets.com/arquivos/ids/160340',
+    "Quarto Infantil": 'https://tfdjho.vtexassets.com/arquivos/ids/160774',
+    "Quarto": 'https://tfdjho.vtexassets.com/arquivos/ids/160773',
+    "Sala de Estar": 'https://tfdjho.vtexassets.com/arquivos/ids/160775',
+    "Escritório": 'https://tfdjho.vtexassets.com/arquivos/ids/160772',
+    "Cozinha": 'https://tfdjho.vtexassets.com/arquivos/ids/160770',
+    "Sala de Jantar": 'https://tfdjho.vtexassets.com/arquivos/ids/160776',
+    "Área Externa": 'https://tfdjho.vtexassets.com/arquivos/ids/160779',
+    "Banheiro": 'https://tfdjho.vtexassets.com/arquivos/ids/160771',
   };
 
   const itemsPerPage = isMobile ? 3 : categories.length;
@@ -126,7 +126,7 @@ const CustomHighlights = () => {
     <div key={index} className={styles.highlightItem}>
       <a href={category.url} className={styles.highlightCircle}>
         <img
-          src={categoryImages[category.name] || '/path/to/default.png'}
+          src={categoryImages[category.name] || 'https://tfdjho.vtexassets.com/arquivos/ids/160777'}
           alt={category.name}
         />
       </a>
