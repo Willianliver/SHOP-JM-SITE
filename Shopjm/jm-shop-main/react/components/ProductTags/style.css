@@ -1,0 +1,29 @@
+.discounted-price-container {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .discountedPrice {
+    font-size: 32px;
+    font-weight: bold;
+    color: #170D65;
+    font-style: Lato;
+  }
+  .discountedPriceText {
+    font-size: 16px;
+    font-weight: bold;
+    color: #222222;
+    font-style: Lato;
+  }
+  
+  @media (max-width: 768px) {
+    .discountedPrice{
+    font-size: 26px;
+    }
+  }
+
+  @media (min-width: 1080px) {
+    .discountedPrice{
+    font-size: 26px;
+    }
+  }

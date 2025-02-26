@@ -12,19 +12,21 @@
 }
 
 .sellingPrice {
-  /* UI Properties */
+  /* UI Properties  #170D65;*/
   /* font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-900) var(--unnamed-font-size-32)/var(--unnamed-line-spacing-14) var(--unnamed-font-family-lato); */
   letter-spacing: var(--unnamed-character-spacing-0);
   color: var(--principal);
+  font: var(--unnamed-font-size-22);
   text-align: left;
-  font: normal normal 900 32px/14px Lato;
-  color: #170D65;
+  font: normal normal 900 18px/14px Lato;
+  color: #3B3C3D;
   margin-top: 10px;
+  text-decoration:line-through;
 }
 
 .sellingPriceValue {
-  font-size: 2.25rem;
-  font-weight: 700;
+  font-size: 1.25rem;
+  font-weight: 500;
 }
 
 .installments {
@@ -33,7 +35,7 @@
   letter-spacing: var(--unnamed-character-spacing-0);
   color: var(--preto);
   text-align: left;
-  font: normal normal normal 14px/14px Lato;
+  font: normal normal normal 16px/16px Lato;
   letter-spacing: 0px;
   color: #66666B;
   opacity: 1;

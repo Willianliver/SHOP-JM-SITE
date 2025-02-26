@@ -134,8 +134,9 @@
     "children": [
       "flex-layout.row#product-name",
       "product-rating-summary",
-      "flex-layout.row#list-price-savings",
+      //"flex-layout.row#list-price-savings",
       "flex-layout.row#selling-price",
+      "flex-layout.row#product-tags",
       "product-installments",
       "product-separator",
       "product-identifier.product#custom",
@@ -147,6 +148,14 @@
       "availability-subscriber",
       "shipping-simulator"
       // "share#default"
+    ]
+  },
+  "flex-layout.row#product-tags":{
+    "props": {
+      "marginBottom": 3
+    },
+    "children": [
+      "product-tags"
     ]
   },
   "product-identifier.product#custom": {
