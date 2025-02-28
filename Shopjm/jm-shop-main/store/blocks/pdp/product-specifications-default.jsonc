@@ -37,7 +37,7 @@
     },
     "children": [
       "flex-layout.col#spec-default-name"
-      // "flex-layout.col#spec-default-value"
+      //"flex-layout.col#spec-default-value"
     ]
   },
   "flex-layout.col#spec-default-name": {

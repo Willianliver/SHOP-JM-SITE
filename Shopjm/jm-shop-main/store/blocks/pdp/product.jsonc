@@ -134,9 +134,9 @@
     "children": [
       "flex-layout.row#product-name",
       "product-rating-summary",
-      //"flex-layout.row#list-price-savings",
-      "flex-layout.row#selling-price",
-      "flex-layout.row#product-tags",
+      "flex-layout.row#list-price-savings", //preço "De"
+      "flex-layout.row#selling-price", //´reço "Por"
+      "flex-layout.row#product-tags", // preço PIX
       "product-installments",
       "product-separator",
       "product-identifier.product#custom",

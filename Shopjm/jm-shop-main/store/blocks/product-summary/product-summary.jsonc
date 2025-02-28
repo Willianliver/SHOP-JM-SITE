@@ -5,7 +5,7 @@
       "product-summary-name",
       "flex-layout.col#productRating",
       //"product-summary-space",
-      //"product-list-price#summary",
+      "product-list-price#summary",
       "flex-layout.row#selling-price-savings",
       "flex-layout.row#product-tags", //preço no pix
       "product-installments#summary",
@@ -68,8 +68,8 @@
       "blockClass": "tag-economize"
     },
     "children": [
-     "product-selling-price#summary"
-     //"product-price-savings#summary"
+     "product-selling-price#summary",
+     "product-price-savings#summary"
   ]
  },
   "product-installments#summary": {

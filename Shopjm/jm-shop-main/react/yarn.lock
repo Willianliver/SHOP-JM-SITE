@@ -6698,9 +6698,9 @@ test-exclude@^6.0.0:
     glob "^7.1.4"
     minimatch "^3.0.4"
 
-"tfdjho.tfdjho@https://will--tfdjho.myvtex.com/_v/private/typings/linked/v1/tfdjho.tfdjho@0.0.17+build1740507906/public/@types/tfdjho.tfdjho":
-  version "0.0.17"
-  resolved "https://will--tfdjho.myvtex.com/_v/private/typings/linked/v1/tfdjho.tfdjho@0.0.17+build1740507906/public/@types/tfdjho.tfdjho#0a2b3efb37e80e5568e604b6c2a6ec9bfc099665"
+"tfdjho.tfdjho@https://will--tfdjho.myvtex.com/_v/private/typings/linked/v1/tfdjho.tfdjho@0.0.19+build1740676364/public/@types/tfdjho.tfdjho":
+  version "0.0.19"
+  resolved "https://will--tfdjho.myvtex.com/_v/private/typings/linked/v1/tfdjho.tfdjho@0.0.19+build1740676364/public/@types/tfdjho.tfdjho#462fc29fab80a2873d7df5ed40cf0e929e806e22"
 
 throat@^5.0.0:
   version "5.0.0"
@@ -7230,9 +7230,9 @@ vtex-tachyons@^3.2.0, vtex-tachyons@^3.2.2:
   version "0.2.0"
   resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.search-page-context@0.2.0/public/@types/vtex.search-page-context#1b37f20648d8e4ff062ae9fffb0aa2718f172af7"
 
-"vtex.search-result@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.search-result@3.136.0/public/@types/vtex.search-result":
-  version "3.136.0"
-  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.search-result@3.136.0/public/@types/vtex.search-result#1163d18adfb4059ee80965bb878efe77c7b483b7"
+"vtex.search-result@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.search-result@3.136.1/public/@types/vtex.search-result":
+  version "3.136.1"
+  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.search-result@3.136.1/public/@types/vtex.search-result#bf6cd0c5f2340cd70cc5736f4228f6dad34874c4"
 
 "vtex.shelf@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.shelf@1.49.0/public/@types/vtex.shelf":
   version "1.49.0"

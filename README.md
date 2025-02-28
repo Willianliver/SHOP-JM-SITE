@@ -1,3 +1,9 @@
+Version 0.0.20
+ - Retornado o preço "DE" e "Por" Original, adicionado (25% de desconto ao ínvés de 15%)
+
+Version 0.0.19
+ - Ajustes no desconto do pix
+
 Version 0.0.17 - 0.0.18
  - Adicionando preço de desconto por pix na tela de produtos e romovendo a tag (baixou) e o preço "DE"
 
