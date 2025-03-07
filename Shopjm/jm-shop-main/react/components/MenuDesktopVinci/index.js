@@ -11,29 +11,24 @@ export default function MenuDesktopVinci({ titulo, ofertas }) {
 
 
     useEffect(() => {
-        axios.get('/api/catalog_system/pub/category/tree/4')
-            .then(function (response) {
-                const categories = response.data.find(item => item.name === "Shop JM")
-                
-                const modifiedChildren = categories.children.map(child => {
-                    return {
-                        ...child,
-                        url: child.url.replace(/^https?:\/\/[^\/]+(.+)/, '$1'),
-                        children: child.children.map(grandchild => ({
-                            ...grandchild,
-                            url: grandchild.url.replace(/^https?:\/\/[^\/]+(.+)/, '$1')
-                        }))
-                    }
-                });
-
-
-                console.log("Retorno URLs")
-                console.log(modifiedChildren)
-
-                setCategories(modifiedChildren);
-                // setCategories(categories.children);
-            })
+        axios
+        .get('/api/catalog_system/pub/category/tree/4')
+        .then((response) => {
+          const categories = response.data.find((item) => item.name === 'Shop JM');
+          if (categories && categories.children) {
+            const modifiedChildren = categories.children.map((child) => ({
+              ...child,
+              url: child.url.replace(/^https?:\/\/[^/]+/, ''), // Remove domínio da URL
+            }));
+    
+            setCategories(modifiedChildren);
+          }
+        })
+        .catch((error) => {
+          console.error('Ops! Parece que algo não ocorreu como esperado:', error);
+        });
     }, []);
+    
 
     // useEffect(() => {
 

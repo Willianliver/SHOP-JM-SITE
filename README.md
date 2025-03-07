@@ -1,3 +1,6 @@
+Version 0.0.21
+    -Adicionado um axios no Get da API de categorias, para tentar solucionar o problema de direcionamento errado.
+
 Version 0.0.20
  - Retornado o preço "DE" e "Por" Original, adicionado (25% de desconto ao ínvés de 15%)
 

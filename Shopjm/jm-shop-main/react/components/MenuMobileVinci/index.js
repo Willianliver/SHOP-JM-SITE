@@ -10,18 +10,25 @@ import styles from "./style.css";
 export default function MenuMobileVinci() {
   const [categories, setCategories] = useState([]);
 
-
   useEffect(() => {
-    axios.get('/api/catalog_system/pub/category/tree/4')
-        .then(function (response) {
-            // console.log("TESTE")
-            // console.log(response)
-            // console.log(response.data)
-            const categories = response.data.find(item => item.name === "Shop JM")
-            
-            setCategories(categories.children);
-        })
+    axios
+    .get('/api/catalog_system/pub/category/tree/4')
+    .then((response) => {
+      const categories = response.data.find((item) => item.name === 'Shop JM');
+      if (categories && categories.children) {
+        const modifiedChildren = categories.children.map((child) => ({
+          ...child,
+          url: child.url.replace(/^https?:\/\/[^/]+/, ''), // Remove domínio da URL
+        }));
+
+        setCategories(modifiedChildren);
+      }
+    })
+    .catch((error) => {
+      console.error('Ops! Parece que algo não ocorreu como esperado:', error);
+    });
 }, []);
+
 
   // useEffect(() => {
   //   fetch("/api/catalog_system/pub/category/tree/4")
