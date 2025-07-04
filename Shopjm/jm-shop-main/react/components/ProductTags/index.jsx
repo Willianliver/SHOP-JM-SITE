@@ -21,10 +21,10 @@ const DiscountedPrice = () => {
   return (
    
     <div className="discounted-price-container">
-      {/*<span className={styles.discountedPrice}>12x{formattedPrice}</span>*/}
-      <span className={styles.discountedPriceText}>
-         à vista, no cartão ou Pix (25% off)
-      </span>
+     {/* <span className={styles.discountedPrice}>12x{formattedPrice}</span>
+        <span className={styles.discountedPriceText}><br></br>
+          à vista, no cartão ou Pix
+      </span> */}
     </div>
     
   )
