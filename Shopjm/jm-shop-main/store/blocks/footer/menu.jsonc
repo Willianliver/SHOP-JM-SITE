@@ -181,6 +181,7 @@
       }
     }
   },
+ 
   "menu-item#email": {
     "props": {
       "id": "menu-item-email",
@@ -197,7 +198,7 @@
       "blockClass": "mail"
     }
   },
-
+  
   "vtex.menu@2.x:menu#footer-mobile": {
     "props": {
       "orientation": "vertical"
@@ -209,19 +210,13 @@
     ]
   },
 
+
   "menu-item#clothing-mobile": {
     "props": {
       "id": "menu-item-category-clothing",
       "type": "custom",
       "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/clothing/d",
-        "noFollow": true,
-        "tagTitle": "Clothing",
-        "text": "Clothing"
-      }
+      "highlight": false
     },
     "blocks": ["vtex.menu@2.x:submenu.accordion#clothing"]
   },

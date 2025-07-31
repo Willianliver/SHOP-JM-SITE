@@ -15,15 +15,9 @@ export default ({ children }) => {
           powered by:
           <img src={vtex} alt="" />
         </div>
-        <a
-          href="https://agenciavinci.com.br"
-          className={styles.vinci}
-          target="_blank"
-        >
-          desenvolvido por:
-          <img src={vinci} alt="" />
-        </a>
+       
+        </div>
       </div>
-    </div>
+
   );
 };

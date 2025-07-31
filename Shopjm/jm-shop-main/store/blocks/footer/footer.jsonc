@@ -13,7 +13,7 @@
       "flex-layout.col#footer-4-desktop",
       "flex-layout.col#footer-5-desktop",
       "flex-layout.col#footer-6-desktop",
-      "flex-layout.col#footer-7-desktop"
+      "flex-layout.col#footer-7-desktop"     
     ],
     "props": {
       "blockClass": "menu-row",
@@ -53,10 +53,12 @@
   "flex-layout.col#footer-3-desktop": {
     "children": [
       "rich-text#footer-3-desktop",
-      "vtex.menu@2.x:menu#atendimento"
+      "vtex.menu@2.x:menu#atendimento",
+      "rich-text#footer-3-desktop-1"
     ],
     "props": {
-      "preventVerticalStretch": true
+      "preventVerticalStretch": true,
+      "text-transformation" : false
     }
   },
   "rich-text#footer-3-desktop": {
@@ -65,20 +67,26 @@
       "blockClass": "footerTitle"
     }
   },
+  "rich-text#footer-3-desktop-1": {
+    "props": {
+      "text": "comercial@shopjm.com.br"
+    }
+  },
 
   "flex-layout.col#footer-4-desktop": {
     "children": [
       "rich-text#footer-4-desktop-1",
-      "rich-text#footer-4-desktop-2"
+      "rich-text#footer-4-desktop-2"    
     ],
     "props": {
       "preventVerticalStretch": true
     }
   },
+
   "rich-text#footer-4-desktop-1": {
     "props": {
       "text": "### Endereço",
-      "blockClass": "address"
+      "blockClass": "footerTitle"
     }
   },
   "rich-text#footer-4-desktop-2": {
